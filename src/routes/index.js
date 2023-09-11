@@ -2,7 +2,7 @@
  * @Author: SunLin
  * @Date: 2023-08-31 14:40:05
  * @LastEditors: SunLin
- * @LastEditTime: 2023-09-11 11:48:41
+ * @LastEditTime: 2023-09-11 16:21:38
  * @Description:
  */
 import loadable from '@/utils/loadable'
@@ -14,7 +14,7 @@ const DataHistory = loadable(() => import('@/views/dataState/dataHistory/index')
 const DataLabel = loadable(() => import('@/views/dataState/dataLabel/index'))
 
 // 通用
-const ButtonView = loadable(() => import(/* webpackChunkName: 'button' */ '@/views/PublicView/Button'))
+const ButtonView = loadable(() => import('@/views/PublicView/Button'))
 const IconView = loadable(() => import(/* webpackChunkName: 'icon' */ '@/views/PublicView/Icon'))
 
 // 导航
